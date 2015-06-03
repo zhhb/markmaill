@@ -1,0 +1,16 @@
+{
+  "name": "markmail",
+  "version": "1.0.0",
+  "description": "markdown mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "mailsender",
+    "week-report"
+  ],
+  "author": "Tobbyn",
+  "license": "ISC"
+}
