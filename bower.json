@@ -1,0 +1,20 @@
+{
+  "name": "markmail",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zhhb/markmaill",
+  "authors": [
+    "huabin.zhao <zhaohuabin_a@163.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "~5.3.0"
+  }
+}
