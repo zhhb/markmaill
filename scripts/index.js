@@ -1,3 +1,4 @@
+var toc = require('markdown-toc');
 var markdown = require('marked');
 markdown.setOptions({
     highlight: function(code) {
@@ -26,6 +27,8 @@ var timeId = 0;
 editInput.on('change', function(cm, obj) {
     try {
         var text = cm.doc.getValue();
+        var tocContent = toc(text).content;
+        text = text.replace('[TOC]',tocContent);
         $('#edit-preview').innerHTML = markdown(text);
     } catch (e) {}
 });
